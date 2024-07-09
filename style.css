@@ -14,9 +14,9 @@ body{
 
 .head{
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     font-family: sans-serif;
-    margin-top: 15px;
+    margin-top: 160px;
     color: #131842;
     font-weight: bold;
 }
@@ -32,17 +32,17 @@ body{
 
 .box label{
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #131842;
 }
 
 .box input{
     border-radius: 20px;
     padding-left: 7px;
-    width: 40px;
+    width: 50px;
     font-family: sans-serif;
-    font: 1em sans-serif;
-    margin-top: 4px;
+    font: 2em sans-serif;
+    margin-top: 0px;
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -57,7 +57,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .btn{
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 3px;
@@ -87,12 +87,19 @@ input[type=number]::-webkit-inner-spin-button {
     align-items: center;
     margin-top: 20px;
     font-family: sans-serif;
-    font-size: 22px;
+    font-size: 28px;
+    color: #131842;
 }
 
-.image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+.image {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 40px;
+ gap: 20px;
+}
+
+.image img{
+    width: 50px;
+    height: 50px;
 }
