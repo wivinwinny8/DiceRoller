@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Dice Roller</title>
 </head>
 <body>
@@ -10,9 +11,12 @@
     <div class="box">
         <label for="num" id="num">Number of dice:</label>
         <input type="number" name="num" id="number" min="1" max="6" value="1">
-        <button onclick="RollDice()">Roll Dice</button>
     </div>
-    <div class="result"></div>
+    <div class="btnbox">
+        <button onclick="RollDice()" class="btn">Roll Dice</button>
+    </div>
+    <div class="result">2323</div>
     <div class="image"></div>
+    <script src="script.js"></script>
 </body>
 </html>
